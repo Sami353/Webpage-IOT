@@ -11,7 +11,7 @@ html, body{
   color: #474747;
   background-image: url("plain.jpg");
   background-attachment: fixed;
-  background-size: auto;
+  background-size: 100% 100%;
   /*background-size: 1920px 1080px;*/
 }
 .fixedwidth{
