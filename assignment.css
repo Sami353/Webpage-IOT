@@ -1,57 +1,57 @@
 .body, *{
-	margin: 10;
-	padding: 10;
-	box-sizing: border-box;
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
 }
 html, body{
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 1rem;
-	text-align: justify;
-	line-height: normal;
-	color: #474747;
-	background-image: url("plain.jpg");
-	background-attachment: fixed;
-	background-size: auto;
-	/*background-size: 1920px 1080px;*/
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: normal;
+  color: #474747;
+  background-image: url("plain.jpg");
+  background-attachment: fixed;
+  background-size: auto;
+  /*background-size: 1920px 1080px;*/
 }
-.fixed-width{
+.fixedwidth{
   /*border-style: groove;*/
-	width: 64rem;
+  width: 64rem;
   margin-left: 13.5rem;
   /*float: right;*/
-	/*margin-right: 13.5rem;*/
+  /*margin-right: 13.5rem;*/
 }
-.fixed-width > nav > ul > li{
-	list-style-type: none;
+.fixedwidth > nav > ul > li{
+  list-style-type: none;
 }
 a{
-	color: inherit;
-	font-weight: bold;
-	text-decoration: underline;
+  color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
 }
-.fixed-width nav{
+.fixedwidth nav{
   /*border-style: groove;*/
-	float: right;
-	text-transform: uppercase;
+  float: right;
+  text-transform: uppercase;
 }
-.fixed-width nav ul li{
-	color: #000000;
-	float: left;
-	margin-right: 1.5rem;
-	padding-top: 1rem;
+.fixedwidth nav ul li{
+  color: #000000;
+  float: left;
+  margin-right: 1.5rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.fixed-width nav ul li: last-child{
-	margin-right: 0;
+.fixedwidth nav ul li: last-child{
+  margin-right: 0;
 }
-.fixed-width nav ul li b{
+.fixedwidth nav ul li b{
   /*border: groove;*/
-	color: #474747;
-	display: block;
-	font-size: 1rem;
-	font-style: normal;
+  color: #474747;
+  display: block;
+  font-size: 1rem;
+  font-style: normal;
 }
-.fixed-width > button{
+.fixedwidth > button{
   margin-left: 0.6rem;
   margin-top: 0.6rem;
   padding: 0.2rem;
@@ -61,19 +61,16 @@ a{
   font-size: 1rem;
   line-height: 2;
 }
-.table{
-  font-size: 1rem;
-  line-height: 1.5;
-}
 .page-header > div{
   /*border: groove;*/
-	position: relative;
+  background-color: #f8f1fc;
+  position: relative;
 }
 #logo{
-	font-family: 'Festive', cursive;
-	font-size: 4rem;
-	position: absolute;
-	bottom: 3;
+  font-family: 'Festive', cursive;
+  font-size: 4rem;
+  position: absolute;
+  bottom: 3;
 }
 .page-header{
   /*border-style: groove;*/
@@ -81,38 +78,41 @@ a{
   /*border-width: 20rem;*/
   /*border: 0.2rem solid #111111;*/
   /*margin-left: 10rem;*/
-	/*border-top: 1rem solid #f8f1fc;*/
+  /*border-top: 1rem solid #f8f1fc;*/
   /*border-right: 1000rem;*/
-	padding-bottom: 1rem;
-	/*background-color: #f8f1fc;*/
+  padding-bottom: 1rem;
+  /*background-color: #f8f1fc;*/
 }
 .page-footer{
-	/*background-color: #69b3d1;*/
-	font-size: 1rem;
-	height: 4rem;
-	color: #111111;
+  /*background-color: #69b3d1;*/
+  font-size: 1rem;
+  height: 4rem;
+  color: #111111;
   text-align: center;
 }
 .page-footer .copyright{
-	margin-left: 0rem;
+  margin-left: 0rem;
 }
 .page-footer .credits{
-	margin-left: 0rem;
+  margin-left: 0rem;
 }
-.page-footer .fixed-width{
-	padding-top: 1rem;
+.page-footer .fixedwidth{
+  padding-top: 1rem;
   padding-bottom: 1rem;
   margin-left: 13.5rem;
 }
 h1,h2,h3,h4,h5,h6, .title{
-	font-family: "Economica", sans-serif;
-	font-weight: bold;
-	text-transform: uppercase;
+  font-family: "Economica", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h1{
+  font-size: 4rem;
 }
 .fig-caption{
   /*border-style: groove;*/
-	/*background-color: #f6f6f6;*/
-	padding: 1rem 1rem;
+  /*background-color: #f6f6f6;*/
+  padding: 1rem 1rem;
 }
 .fig-caption > i{
   font-size: 2rem;
@@ -128,47 +128,47 @@ h1,h2,h3,h4,h5,h6, .title{
 }
 .fig-caption > strong{
   /*border-style: groove;*/
-	font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 .conclude > p{
   padding: 1rem 1rem;
   /*border-style: groove;*/
 }
 p{
-	margin: 0.5rem 0;
-	line-height: 1.5;
+  margin: 0.5rem 0;
+  line-height: 1.5;
 }
 .claim{
-	float: left;
-	width: 30%;
-	margin-right: 5%;
-	margin-left: 10%;
-	margin-bottom: 5%;
-	margin-top: 5%;
-	outline-style: groove;
-	padding: 2%;
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  outline-style: groove;
+  padding: 2%;
 }
 .claim > header > i{
-	font-size: 2.5rem;
-	font-weight: bolder;
-	color: #000000;
-	float: left;
-	width: 25%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #000000;
+  float: left;
+  width: 25%;
 }
 .claim > header > h2{
-	float: left;
-	width: 75%;
+  float: left;
+  width: 75%;
 }
 div > strong{
-	font-size: 3rem;
-	font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 div > i{
-	font-size: 2.5rem;
-	font-weight: bolder;
-	color: #000000;
-	float: left;
-	width: 10%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #000000;
+  float: left;
+  width: 10%;
 }
 img {
   opacity: 0.9;
@@ -177,13 +177,17 @@ img:hover {
   opacity: 1.0;
 }
 a:hover{
-	color: grey;
+  color: grey;
 }
 .claim{
-	box-shadow: 0.6rem 0.6rem grey;
+  box-shadow: 0.6rem 0.6rem grey;
 }
 p{
-	cursor: text;
+  cursor: text;
+}
+.table{
+  font-size: 1rem;
+  line-height: 1.5;
 }
 table, th, td {
   border: 0.1rem solid black;
@@ -387,4 +391,7 @@ div.gallery {
   padding-top: 1rem;
   padding-right: 4rem;
   padding-left: 4rem;
+}
+.return{
+  font-weight: bold;
 }
